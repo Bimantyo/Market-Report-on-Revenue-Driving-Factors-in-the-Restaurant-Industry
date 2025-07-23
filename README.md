@@ -52,7 +52,7 @@ Mengutip dari esb.id menyatakan bahwa potensi kegagalan dalam bisnis kuliner yan
 Bisnis FnB, termasuk restoran tergolong sangat dinamis dan bisa mengalami perubahan yang cepat dalam waktu yang relatif singkat. Maka dari itu untuk dapat membuat bisnis FnB yang bersifat long lasting perlu dilakukan optimalisasi dalam segi kualitas makanan, manajemen, service dan inovasi. Penerapan strategi bisnis yang efektif dan efisien dapat memaksimalkan potensi bisnis dan menjalankan operasional restoran yang lebih baik. Jika penerapan strategi tidak tepat, kurang efektif dan efisien dapat menimbulkan kerugian yang besar dan menimbulkan review yang kurang baik dari customer, salah satu contoh restoran yang pailit karena penerapan strategi bisnis yang tidak tepat adalah Karen’s Dinner.
 
 ## Project Output
-Output dari project ini berupa sebuah dashboard sebagai market report yang berdasarkan analisa guna menghasilkan insight bisnis dan rekomendasi strategis yang dapat mendukung pertumbuhan dan kinerja restoran.
+Output dari project ini berupa sebuah dashboard sebagai market report yang berdasarkan analisa guna menghasilkan insight bisnis dan rekomendasi strategis yang dapat mendukung pertumbuhan dan kinerja restoran. Untuk output market report dapat dilihat pada folder Analysis di repository 
 
 ## Data
 Sumber data yang digunakan berasal dari kaggle, untuk sumber data dapat dilihat di https://www.kaggle.com/datasets/anthonytherrien/restaurant-revenue-prediction-dataset. Dataset ini memiliki 17 kolom dan total terdapat 8368 ribu baris data. Pada dataset ini tidak ditemukan data duplicate dan missing values.  
