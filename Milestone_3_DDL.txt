@@ -1,0 +1,46 @@
+Nama : Bimantyo Arya Majid
+
+===========================================
+PREFACE
+===========================================
+Program ini akan dibuat untuk membuat tabel dan memasukkan data dari dataset yang berbentuk .csv ke dalam PostgreSQL database. 
+
+===========================================
+URL DATASET
+===========================================
+Dataset URL: https://www.kaggle.com/datasets/anthonytherrien/restaurant-revenue-prediction-dataset
+
+===========================================
+Data Definition Language Syntax
+===========================================
+DDL akan berisikan syntax untuk membuat 'table_m3' dengan membuat kolom sesuai dengan namanya di dalam file .csv dan menentukan tipe datanya. Berikut adalah syntax yang digunakan menggunakan `CREATE TABLE`.
+
+CREATE TABLE table_m3 (
+    Name VARCHAR(50) PRIMARY KEY,
+    Location VARCHAR(50),
+    Cuisine VARCHAR(50),
+    Rating FLOAT,
+    "Seating Capacity" INTEGER,
+    "Average Meal Price" FLOAT,
+    "Marketing Budget" INTEGER,
+    "Social Media Followers" INTEGER,
+    "Chef Experience Years" INTEGER,
+    "Number of Reviews" INTEGER,
+    "Avg Review Length" FLOAT,
+    "Ambience Score" FLOAT,
+    "Service Quality Score" FLOAT,
+    "Parking Availability" VARCHAR(10),
+    "Weekend Reservations" INTEGER,
+    "Weekday Reservations" INTEGER,
+    Revenue FLOAT
+);
+
+===========================================
+Data Manipulation Language Syntax
+===========================================
+DML akan berisikan syntax untuk memasukkan data dari file .csv ke dalaam `table_m3` menggunakan `COPY`.
+
+COPY table_m3 
+FROM '/tmp/raw_data.csv' 
+DELIMITER ',' 
+CSV HEADER;
