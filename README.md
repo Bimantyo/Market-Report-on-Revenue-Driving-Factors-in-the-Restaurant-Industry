@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: Market-Report-on-Revenue-Driving-Factors-in-the-Restaurant-Industry
+# :chart_with_upwards_trend: Market Report on Revenue Driving Factors in the Restaurant Industry
 
 Hello! I’m Bima, this project aims to analyze the key factors influencing restaurant revenue through Exploratory Data Analysis (EDA), providing business insights and strategic recommendations to support growth and performance improvement.
 
